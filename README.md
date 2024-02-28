@@ -31,7 +31,38 @@ Steps:
 ![Screenshot (148)](https://github.com/RanitaGhosh04/DOMProject1/assets/82662107/59781120-9cc8-4cfc-99f2-c7e6ba6c855a)
 
 
--->getElementById is a method provided by the Document Object Model (DOM) interface in JavaScript. It is used to retrieve a reference to an HTML element
-on a web page based on its unique identifier, known as the "id." The method allows developers to access and manipulate specific elements by selecting them using their unique ID.
+Placing the <script> tag at the end of the HTML body is a common practice in web development, and it is often recommended for several reasons.
 
 
+Here's an explanation of why scripts are sometimes placed at the end of the body tag:
+![Screenshot 2024-02-28 223055](https://github.com/RanitaGhosh04/DOMProject1/assets/82662107/a2022d28-633e-4f97-a243-ebc35f938b4a)
+
+1. Faster Rendering:
+-->Placing scripts at the end allows the HTML content to load and render first.
+Users can see and interact with the page while the script is being downloaded and executed.
+
+3. Improved Page Load Performance:
+-->When scripts are at the top, browsers must wait for the script to download and execute before rendering the rest of the page.
+Placing scripts at the end minimizes the impact on initial page load times.
+
+5. Progressive Rendering:
+-->Users see a more responsive page because content appears incrementally while scripts are being processed.
+This is particularly important for larger scripts or slower network connections.
+
+7. Prevents Blocking:
+-->Placing scripts at the end prevents the HTML parsing from being blocked by script execution.
+Ensures that critical content is loaded first, and non-essential scripts don't hinder the initial rendering.
+
+9. Parallel Loading:
+-->Browsers can download multiple resources in parallel. Placing scripts at the end allows other resources (stylesheets, images) to download simultaneously.
+
+Accessing an Element with getElementById:
+
+In JavaScript, the getElementById method is employed to retrieve a reference to an HTML element based on its unique identifier, commonly known as the "id." 
+This method facilitates developers in accessing and manipulating specific elements within a web page.
+
+Explanation:
+
+-->The getElementById method is invoked on the document object, which represents the entire HTML document.
+-->The method takes a single argument, the ID of the target element, specified within double quotes.
+-->The returned value (element) is a reference to the HTML element with the specified ID.
