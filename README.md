@@ -81,3 +81,40 @@ This is because styles in JavaScript are applied as strings of CSS property-valu
 Here, the value "yellow" is enclosed in double quotes because it is a string representing the color. This string is then assigned to the backgroundColor property of 
 the style object for the specified HTML element.
 
+-->mainDivEle:
+mainDivEle is a variable representing an HTML element, likely obtained using methods like document.getElementById.
+
+--> .style:
+The dot (.) is used to access the style property of the mainDivEle element. The style property provides access to the inline styles of the element.
+.backgroundColor = "yellow";
+
+Another dot (.) is used to access the backgroundColor property within the style object. This sets the background color of the element to "yellow".
+The dot notation allows you to access nested properties and methods of objects.
+
+Let's break down the dot notation in more detail:
+
+Object Access:
+
+-->The dot (.) is used to access properties and methods of objects.
+In this case, mainDivEle.style is an object representing the inline styles of the HTML element.
+
+Nested Properties:
+
+-->The dot notation allows access to nested properties or methods within objects.
+For example, mainDivEle.style.backgroundColor accesses the backgroundColor property within the style object.
+
+Property Assignment:
+
+-->The dot notation is also used to assign values to properties. In this case, setting mainDivEle.style.backgroundColor = "yellow"; assigns the value "yellow" to the backgroundColor property.
+
+The provided code applies the same dot notation concept to set various style properties, such as margin, padding, fontSize, fontWeight, height, width, and color.
+
+![Screenshot 2024-02-28 225649](https://github.com/RanitaGhosh04/DOMProject1/assets/82662107/64ce21ca-f0ea-47ba-bf59-ef60d5e017b8)
+
+CSS vs JS for Styling:
+
+-->JavaScript is used for dynamic styling, while CSS is typically used for static styles.
+-->JS can be advantageous for responsive or interactive styling based on user interactions.
+-->CSS is more declarative and suitable for global styling or larger style sets.
+
+In summary, the assignment involves creating an HTML file, linking it to a JavaScript file, accessing an element by ID, and dynamically styling the element using JavaScript.
