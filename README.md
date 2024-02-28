@@ -70,7 +70,7 @@ Explanation:
 
 -->The method takes a single argument, the ID of the target element, specified within double quotes.
 
--->The returned value (element) is a reference to the HTML element with the specified ID.
+-->The returned value (mainDivEl) is a reference to the HTML element with the specified ID.
 
 
 In JavaScript, when setting styles using the style property, the property values are specified as strings, and the string is typically enclosed in double quotes.
