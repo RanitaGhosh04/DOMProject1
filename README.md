@@ -151,6 +151,11 @@ After completing these steps, if you create a README file, make changes, and com
 How to Host the Site:
 
 Step 1: Navigate to the "Settings" tab.
+
 Step 2: Select "Pages" from the left-hand menu.
+
 Step 3: Click on "Branch," switch to "main," and save your changes.
+
 Step 4: Allow 2-3 minutes for the process to complete, then refresh the page to see your hosted site.
+
+Hosted Site - https://ranitaghosh04.github.io/DOMProject1/
