@@ -71,3 +71,13 @@ Explanation:
 -->The method takes a single argument, the ID of the target element, specified within double quotes.
 
 -->The returned value (element) is a reference to the HTML element with the specified ID.
+
+![ss1](https://github.com/RanitaGhosh04/DOMProject1/assets/82662107/83713c0f-2657-4f01-8543-0aea08275207)
+
+In JavaScript, when setting styles using the style property, the property values are specified as strings, and the string is typically enclosed in double quotes.
+This is because styles in JavaScript are applied as strings of CSS property-value pairs.
+
+
+Here, the value "yellow" is enclosed in double quotes because it is a string representing the color. This string is then assigned to the backgroundColor property of 
+the style object for the specified HTML element.
+
