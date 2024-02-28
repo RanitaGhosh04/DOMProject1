@@ -27,7 +27,7 @@ Steps:
 1.HTML Structure:
 
 -->Create an HTML file that includes the necessary structure.
--->Add a <div> element with a unique ID, which will be targeted in JavaScript.
+
 ![Screenshot (148)](https://github.com/RanitaGhosh04/DOMProject1/assets/82662107/59781120-9cc8-4cfc-99f2-c7e6ba6c855a)
 
 
