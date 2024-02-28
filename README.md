@@ -10,7 +10,7 @@ Here is a concise overview of the Document Object Model (DOM) in points:
 
 5.Top-Level Object: The top-level object is called the "document" and serves as an entry point to interact with the entire document.
 
-6.Element: A type of node that represents HTML or XML elements, like <div> or <p>.
+6.Element: A type of node that represents HTML or XML elements.
 
 7.Attributes: Properties of elements, such as "id" or "class," are represented as attributes.
 
