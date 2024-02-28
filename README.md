@@ -118,3 +118,39 @@ CSS vs JS for Styling:
 -->CSS is more declarative and suitable for global styling or larger style sets.
 
 In summary, the assignment involves creating an HTML file, linking it to a JavaScript file, accessing an element by ID, and dynamically styling the element using JavaScript.
+
+How to push the code:
+
+1.Open a command-line terminal (like Command Prompt or Terminal) and use the cd command to navigate to the directory where your HTML index file (e.g., index.html) is located. This step ensures that you are working in the correct directory.
+
+2.Initialize a Git repository:
+-->Run the command git init. This initializes a new Git repository in the current directory. It sets up the necessary Git infrastructure to start tracking changes in your project.
+Add files to the staging area:
+
+3.Execute git add . to add all files in the directory to the staging area. The staging area is a step before committing, allowing you to select which changes you want to include in the next commit.
+Check the status of files:
+-->Verify the status of your files with git status. This command shows you the files that have been modified, added to the staging area, or are untracked. It helps you confirm that you are committing the changes you intend to.
+
+4.Commit the changes:
+-->Commit the staged changes with git commit -m "first commit". This creates a snapshot of the changes along with a brief descriptive message.
+The -m flag allows you to include a message directly in the command.
+
+5.Rename the branch to main:
+-->Rename the default branch from "master" to "main" using git branch -M main. This step is not always necessary,
+but it ensures that the main branch is named consistently with modern Git practices.
+
+6.Link the local repository to GitHub:
+-->Connect your local repository to a remote repository on GitHub with git remote add origin https://github.com/RanitaGhosh04/DOMProject1.git
+
+7.Push changes to GitHub:
+-->Push your committed changes to the main branch on GitHub using git push -u origin main. This command uploads your local changes to the GitHub repository, making them accessible to others.
+
+After completing these steps, if you create a README file, make changes, and commit them to the main branch, you can use similar commands to add, commit, and push those changes to GitHub.
+
+
+How to Host the Site:
+
+Step 1: Navigate to the "Settings" tab.
+Step 2: Select "Pages" from the left-hand menu.
+Step 3: Click on "Branch," switch to "main," and save your changes.
+Step 4: Allow 2-3 minutes for the process to complete, then refresh the page to see your hosted site.
