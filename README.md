@@ -61,8 +61,13 @@ Accessing an Element with getElementById:
 In JavaScript, the getElementById method is employed to retrieve a reference to an HTML element based on its unique identifier, commonly known as the "id." 
 This method facilitates developers in accessing and manipulating specific elements within a web page.
 
+
+![Screenshot 2024-02-28 223451](https://github.com/RanitaGhosh04/DOMProject1/assets/82662107/2bf37f47-b8e5-44f0-adac-3a237aad2ae0)
+
 Explanation:
 
 -->The getElementById method is invoked on the document object, which represents the entire HTML document.
+
 -->The method takes a single argument, the ID of the target element, specified within double quotes.
+
 -->The returned value (element) is a reference to the HTML element with the specified ID.
